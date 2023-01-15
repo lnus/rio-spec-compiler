@@ -49,7 +49,7 @@ with a.html(lang='en'):
                 with a.span():
                     a(data["talent_string"])
 
-filename = "rio-leaderboard-talent-builds"
+filename = "rio-leaderboard-talent-builds.html"
 with open(filename, "wb") as f:
     html = str(a)
     html_bytes = bytes(html, "utf-8")
